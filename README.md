@@ -3,7 +3,7 @@ this python cli script allows to extract defined attachments from mail files.
 It uses python email class to parse a file for attachments. Only default python libs, that should be shipped in every python installation, are used.
 
 Currently it expects the given filename to start with a digit like dovecot server does name the mail files.  
-If you need the script to read ANY file in given dir, then apply no_filename_filter.patch
+If you need the script to read ANY file in given dir, then comment line 98 and uncomment line 99
 
 ## Usage
 ```
